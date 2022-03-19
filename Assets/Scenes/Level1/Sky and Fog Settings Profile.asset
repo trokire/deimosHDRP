@@ -67,7 +67,7 @@ MonoBehaviour:
     m_Value: 1
   albedo:
     m_OverrideState: 1
-    m_Value: {r: 0.8396226, g: 0.41585082, b: 0.41585082, a: 1}
+    m_Value: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 1}
     hdr: 0
     showAlpha: 1
     showEyeDropper: 1
@@ -108,7 +108,7 @@ MonoBehaviour:
     max: 512
   m_VolumetricFogBudget:
     m_OverrideState: 0
-    m_Value: 0.5
+    m_Value: 0.333
     min: 0
     max: 1
   m_ResolutionDepthRatio:
@@ -161,6 +161,56 @@ MonoBehaviour:
   - {fileID: -5499444538258285533}
   - {fileID: 6792650765726421671}
   - {fileID: -5970004187762454407}
+  - {fileID: 187456488349630874}
+--- !u!114 &187456488349630874
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ddcec8a8eb2d684d833ac8f5d26aebd, type: 3}
+  m_Name: HDShadowSettings
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  maxShadowDistance:
+    m_OverrideState: 1
+    m_Value: 0
+    min: 0
+  directionalTransmissionMultiplier:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+    max: 1
+  cascadeShadowSplitCount:
+    m_OverrideState: 0
+    m_Value: 4
+    min: 1
+    max: 4
+  cascadeShadowSplit0:
+    m_OverrideState: 0
+    m_Value: 0.05
+  cascadeShadowSplit1:
+    m_OverrideState: 0
+    m_Value: 0.15
+  cascadeShadowSplit2:
+    m_OverrideState: 0
+    m_Value: 0.3
+  cascadeShadowBorder0:
+    m_OverrideState: 0
+    m_Value: 0
+  cascadeShadowBorder1:
+    m_OverrideState: 0
+    m_Value: 0
+  cascadeShadowBorder2:
+    m_OverrideState: 0
+    m_Value: 0
+  cascadeShadowBorder3:
+    m_OverrideState: 0
+    m_Value: 0
 --- !u!114 &6792650765726421671
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -281,8 +331,8 @@ MonoBehaviour:
     min: 1
     max: 10
   groundTint:
-    m_OverrideState: 1
-    m_Value: {r: 0.6415094, g: 0.18458524, b: 0.24876001, a: 1}
+    m_OverrideState: 0
+    m_Value: {r: 0.9245283, g: 0.9245283, b: 0.9245283, a: 1}
     hdr: 0
     showAlpha: 0
     showEyeDropper: 0
@@ -326,7 +376,7 @@ MonoBehaviour:
     max: 1
   horizonTint:
     m_OverrideState: 1
-    m_Value: {r: 0.9622642, g: 0.54013884, b: 0.54013884, a: 1}
+    m_Value: {r: 0.735849, g: 0.735849, b: 0.735849, a: 1}
     hdr: 0
     showAlpha: 0
     showEyeDropper: 0
