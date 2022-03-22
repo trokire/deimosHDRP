@@ -138,7 +138,7 @@ MonoBehaviour:
   m_AdvancedMode: 0
   skyType:
     m_OverrideState: 1
-    m_Value: 4
+    m_Value: 1
   skyAmbientMode:
     m_OverrideState: 0
     m_Value: 1
@@ -178,7 +178,7 @@ MonoBehaviour:
   m_AdvancedMode: 0
   maxShadowDistance:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 152.46
     min: 0
   directionalTransmissionMultiplier:
     m_OverrideState: 0
