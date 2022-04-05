@@ -9,6 +9,7 @@ Properties {
 	_MainTex ("_MainTex RGBA", 2D) = "white" {}
 	_Distort ("_Distort A", 2D) = "white" {}
 	_LavaTex ("_LavaTex RGB", 2D) = "white" {}
+	//_Emission ("_EmissionColor", Color.red) = "red" {}
 }
 
 Category {
