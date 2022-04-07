@@ -54,13 +54,13 @@ MonoBehaviour:
     min: 0
   baseHeight:
     m_OverrideState: 1
-    m_Value: 60
+    m_Value: 50
   maximumHeight:
     m_OverrideState: 0
     m_Value: 1239
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 250
+    m_Value: 300
     min: 1
   enableVolumetricFog:
     m_OverrideState: 1
@@ -108,7 +108,7 @@ MonoBehaviour:
     max: 512
   m_VolumetricFogBudget:
     m_OverrideState: 0
-    m_Value: 0.333
+    m_Value: 0.5
     min: 0
     max: 1
   m_ResolutionDepthRatio:
@@ -139,6 +139,63 @@ MonoBehaviour:
   - {fileID: 8469677309887813833}
   - {fileID: -436315495153344614}
   - {fileID: 8804111494665302976}
+  - {fileID: 6679067901590713722}
+--- !u!114 &6679067901590713722
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24f077503be6ae942a1e1245dbd53ea9, type: 3}
+  m_Name: Bloom
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  quality:
+    m_OverrideState: 1
+    m_Value: 1
+  threshold:
+    m_OverrideState: 1
+    m_Value: 0.28
+    min: 0
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0.188
+    min: 0
+    max: 1
+  scatter:
+    m_OverrideState: 1
+    m_Value: 0.182
+    min: 0
+    max: 1
+  tint:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    hdr: 0
+    showAlpha: 0
+    showEyeDropper: 1
+  dirtTexture:
+    m_OverrideState: 1
+    m_Value: {fileID: 2800000, guid: 4ec4a83a16cf98942ab030b95eec4a1d, type: 3}
+  dirtIntensity:
+    m_OverrideState: 1
+    m_Value: 5
+    min: 0
+  anamorphic:
+    m_OverrideState: 1
+    m_Value: 1
+  m_Resolution:
+    m_OverrideState: 1
+    m_Value: 2
+  m_HighQualityPrefiltering:
+    m_OverrideState: 1
+    m_Value: 0
+  m_HighQualityFiltering:
+    m_OverrideState: 1
+    m_Value: 1
 --- !u!114 &8469677309887813833
 MonoBehaviour:
   m_ObjectHideFlags: 3
